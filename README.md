@@ -17,7 +17,7 @@ The page should show these weather conditions for the current location with a to
  │ [c]|[f] (toggle)  │
  └───────────────────┘
 ```
-Build it in your prefered online code playground (e.g. codepen, jsfiddle), or throw it in a Github Repo (be sure to include any sources if preprocessing).
+Throw it in a Github Repo (be sure to include any sources if preprocessing) or build it in your preferred online code playground (e.g. codepen, jsfiddle).
 
 You can fetch the weather using a free API (details below). Get the current geo location using your preferred method (e.g. browser / ip lookup service). Fallbacks welcome.
 
