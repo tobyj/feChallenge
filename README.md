@@ -21,9 +21,9 @@ Throw it in a Github Repo (be sure to include any sources if preprocessing) or b
 
 You can fetch the weather using a free API (details below). Get the current geo location using your preferred method (e.g. browser / ip lookup service). Fallbacks welcome.
 
-As the API has a call limit the results should be cached (e.g. localstorage, cookie). When toggling c|f calculate the values instead of making another call.
+As the API has a call limit the results should be locally cached (e.g. localstorage, cookie). When toggling c|f calculate the values instead of making another call.
 
-Use SASS or LESS or whatever, pure JS or jQuery... and some animation to make it hot (even when it's 8 degrees). The important thing is that the code is clean, consistent and crystal clear.
+Use Vue.js if possible, or your preferred framework, or simply pure JS... SCSS would be great, and some animation to make it hot (even when it's 8 degrees). The important thing is that the code is clean, consistent and crystal clear.
 
 ## API Details
 Option 1: *Dark Sky*
