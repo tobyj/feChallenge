@@ -1,7 +1,7 @@
 # feChallenge
 
 ## Brief
-Melbourne weather is not awesome. build a page that *is* awesome that reports the current weather.
+Melbourne weather is not awesome. build a page that *is* awesome that reports the current weather at user's location.
 The page should show these weather conditions for the current location with a toggle for celsius/farenheit:
 ```
  ┌───────────────────┐
@@ -17,13 +17,13 @@ The page should show these weather conditions for the current location with a to
  │ [c]|[f] (toggle)  │
  └───────────────────┘
 ```
-Throw it in a Github Repo (be sure to include any sources if preprocessing) or build it in your preferred online code playground (e.g. codepen, jsfiddle).
+Throw it in a Github Repo.
 
-You can fetch the weather using a free API (details below). Get the current geo location using your preferred method (e.g. browser / ip lookup service). Fallbacks welcome.
+You can fetch the weather using a free API (details below, or use another if preferred). Get the current geo location using your preferred method (e.g. browser / ip lookup service). Fallbacks welcome.
 
 As the API has a call limit the results should be locally cached (e.g. localstorage, cookie). When toggling c|f calculate the values instead of making another call.
 
-Use Vue.js if possible, or your preferred framework, or simply pure JS... SCSS would be great, and some animation to make it hot (even when it's 8 degrees). The important thing is that the code is clean, consistent and crystal clear.
+Use Vue.js or simply pure JS... SCSS should be used for styling. The important thing is that the code is clean, consistent and crystal clear.
 
 ## API Details
 Option 1: *Dark Sky*
