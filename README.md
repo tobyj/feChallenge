@@ -26,12 +26,13 @@ As the API has a call limit the results should be locally cached (e.g. localstor
 Use Vue.js or simply pure JS... SCSS should be used for styling. The important thing is that the code is clean, consistent and crystal clear.
 
 ## API Details
-Option 1: *Dark Sky*
- - API signup: https://darksky.net/dev/ (free signup, 1,000 requests/day, https support, must attribute dark sky)
- - Docs: https://darksky.net/dev/docs
- - Example call: https://api.darksky.net/forecast/YOUR_API_KEY/YOUR_LATITUDE,YOUR_LONGITUDE?exclude=minutely,hourly,alerts,flags
 
-Option 2: *OpenWeatherMap*
- - Grab an API key here: https://openweathermap.org/appid (free signup, 60 requests/min, no https support!)
+Feel free to use any weather API. Here are some possible choices:
+
+*OpenWeatherMap*
+ - Grab an API key here: https://openweathermap.org/appid (free signup, 60 requests/min)
  - Docs: https://openweathermap.org/current
  - Example call: http://api.openweathermap.org/data/2.5/weather?lat=YOUR_LATITUDE&lon=YOUR_LONGITUDE&appid=YOU_API_KEY
+
+- **ClimaCell (Tomorrow)** - https://docs.tomorrow.io/reference/welcome  
+- **Aeris Weather** - https://www.aerisweather.com/develop/api/
