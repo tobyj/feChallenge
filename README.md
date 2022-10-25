@@ -34,5 +34,6 @@ Feel free to use any weather API. Here are some possible choices:
  - Docs: https://openweathermap.org/current
  - Example call: http://api.openweathermap.org/data/2.5/weather?lat=YOUR_LATITUDE&lon=YOUR_LONGITUDE&appid=YOU_API_KEY
 
-- **ClimaCell (Tomorrow)** - https://docs.tomorrow.io/reference/welcome  
-- **Aeris Weather** - https://www.aerisweather.com/develop/api/
+*Other options*
+ - **ClimaCell (Tomorrow)** - https://docs.tomorrow.io/reference/welcome  
+ - **Aeris Weather** - https://www.aerisweather.com/develop/api/
